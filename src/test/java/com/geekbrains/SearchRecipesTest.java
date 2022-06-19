@@ -51,22 +51,7 @@ public class SearchRecipesTest extends AbstractTest {
                 .build();
 
     }
-        @Test
-    void getincludeNutritionTest() {
-        given()
-                .when()
-                .get(getBaseUrl()+"recipes/716429/information?" +
-                        "includeNutrition=false&apiKey=" +getApiKey())
-                .then();
 
-
-        given()
-                .when()
-                .request(Method.GET,getBaseUrl()+"recipes/716429/information?" +
-                        "includeNutrition={Nutrition}&apiKey={apiKey}", false, getApiKey())
-                .then();
-
-    }
 
     @Test
     void getRecipesTest() {

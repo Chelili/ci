@@ -10,6 +10,7 @@
         <module name="dz7" />
         <module name="backend-test-dz" />
         <module name="dz_3" />
+        <module name="ci" />
         <module name="dz4" />
       </profile>
     </annotationProcessing>
